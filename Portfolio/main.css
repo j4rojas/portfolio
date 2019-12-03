@@ -1,0 +1,19 @@
+body {
+    box-sizing: border-box;
+}
+
+nav {
+    width:100%;
+    background-color:rgb(5, 5, 54);
+}
+
+.navigation a {
+    float: right;
+    color:white;
+    text-align: center;
+}
+
+
+ul {
+    list-style-type: none;
+}
