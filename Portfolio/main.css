@@ -44,12 +44,21 @@ footer {
     width: 100%;
     background-color: rgb(5,5,54);
     margin-bottom:0;
+    display: flex;
+    align-content: center;
 }
 
 #contactInfo {
     color:white;
 }
 
+.info {
+    display:inline;
+}
+
+.titleContact {
+    display:inline;
+}
 
 .mySlides1, .mySlides2, .mySlides3 {
     display: none;
