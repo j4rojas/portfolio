@@ -11,14 +11,25 @@ nav {
     background-color:rgb(5, 5, 54);
 }
 
+.Bio {
+    text-align:left;
+}
+
+p {
+    margin: 20px auto;
+    font-size:18px;
+    text-align:left;
+}
+
 .name {
     color:white;
     float:left;
+    margin-left: -600px;
 }
 
 ul {
     list-style-type: none;
-    margin: 0;
+    margin: 8px 0;
     padding: 0;
     overflow: hidden;
 }
@@ -30,11 +41,14 @@ li {
 li a {
     display: block;
     text-align:center;
-    padding: 8px 10px;
+    padding: 8px 35px;
+    margin-top:5px;
     color:white;
     font-size: 1.5em;
 }
-
+.links {
+    margin-right: -600px;
+}
 .links a:hover {
     background-color: rgb(49, 119, 233);
     color: white;
@@ -44,6 +58,7 @@ footer {
     width: 100%;
     background-color: rgb(5,5,54);
     margin-bottom:0;
+    margin-top: 25px;
     display: flex;
     align-content: center;
 }
@@ -52,19 +67,21 @@ footer {
     color:white;
 }
 
-.info {
-    display:inline;
-}
-
 .titleContact {
-    display:inline;
+    float:left;
+    margin: 15px 95px;
 }
 
 .mySlides1, .mySlides2, .mySlides3 {
     display: none;
 }
-img {
+img.slideshow-container{
     vertical-align: middle;
+    width:100%;
+}
+
+.info img {
+    margin-right: 25px;
 }
 
 /* Slideshow container */
@@ -82,7 +99,7 @@ img {
   width: auto;
   padding: 16px;
   margin-top: -22px;
-  margin-left: -350px;
+  margin-left: -319px;
   color: white;
   font-weight: bold;
   font-size: 18px;
@@ -93,7 +110,7 @@ img {
 
 /* Position the "next button" to the right */
 .next {
-  right: 150px;
+  right: 136px;
   border-radius: 3px 0 0 3px;
 }
 
@@ -102,6 +119,20 @@ img {
   background-color: #f1f1f1;
   color: black;
 }
+
+
+.bookSearch, .travelPlanner, .UncEats {
+    margin:auto;
+    width:80%;
+}
+
+.projectLinks {
+    font-size:25px;
+}
+
+
+
+
 
 
 
