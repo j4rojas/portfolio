@@ -8,12 +8,134 @@ body {
 
 nav {
     width:100%;
-    background-color:rgb(5, 5, 54);
+    background-color:rgb(5, 22, 47);
 }
 
-.Bio {
+.hBio {
+    text-align: center;
+}
+
+h2 {
+    font-size:24px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.hBio, .portfolio {
+    background-color:#7da5c5;
+}
+
+.occupation {
+    font-size: 17px;
+}
+
+p {
+    margin: 20px auto;
+    font-size:15px;
     text-align:left;
 }
+
+.name {
+    margin: 15px 48px;
+    color:white;
+    font-size: 26px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 8px 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul.links li {
+    display: inline;
+    color:white;
+}
+
+ul.info li {
+    display:inline;
+    font-size: 0em;
+    padding: 15px 23.5px;
+}
+
+li a {
+    color:white;
+    font-size: 1.2em;
+    padding: 0 14px;
+}
+
+.links a:hover {
+    background-color: rgb(49, 119, 233);
+    color: white;
+}
+
+.slideshow-container img {
+    width: 120%;
+    margin-left: -26px;
+}
+
+a.prev, a.next {
+    color:rgb(5, 22, 47);
+    padding: 5px 5px;
+}
+
+footer {
+    width: 100%;
+    background-color:rgb(5, 22, 47);
+    margin-bottom:0;
+    margin-top: 25px;
+    display: flex;
+    align-content: center;
+}
+
+.titleContact {
+    font-size: 22px;
+    color:white;
+    margin: 15px 48px;
+
+}
+
+@media only screen and (min-width:375px) {
+
+    li a {
+        color:white;
+        font-size: 1.2em;
+        padding: 0 24px;
+    }
+
+    .name {
+        margin: 16px 79px;
+    }
+
+    .titleContact {
+        font-size: 22px;
+        color:white;
+        margin: 16px 76px;
+    
+    }
+
+    .slideshow-container img {
+        width: 115%;
+        margin-left: -24px;
+        margin-bottom: 15px;
+    }
+
+}
+
+/* 320px
+480px
+600px
+768px
+900px
+1024px
+1200px */
+
+
+
+@media only screen and (min-width: 1500px) {
 
 p {
     margin: 20px auto;
@@ -129,6 +251,7 @@ img.slideshow-container{
 .projectLinks {
     font-size:25px;
 }
+} 
 
 
 
