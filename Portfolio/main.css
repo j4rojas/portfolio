@@ -29,6 +29,7 @@ h3 {
 
 .occupation {
     font-size: 17px;
+    text-align: center;
 }
 
 p {
@@ -38,7 +39,7 @@ p {
 }
 
 .name {
-    margin: 15px 48px;
+    text-align: center;
     color:white;
     font-size: 26px;
 }
@@ -79,7 +80,8 @@ li a {
 
 a.prev, a.next {
     color:rgb(5, 22, 47);
-    padding: 5px 5px;
+    padding: 5px 45px;
+    font-size: 150%;
 }
 
 footer {
@@ -94,7 +96,8 @@ footer {
 .titleContact {
     font-size: 22px;
     color:white;
-    margin: 15px 48px;
+    text-align: center;
+    margin-bottom: 20px;
 
 }
 
@@ -106,15 +109,9 @@ footer {
         padding: 0 24px;
     }
 
-    .name {
-        margin: 16px 79px;
-    }
-
     .titleContact {
         font-size: 22px;
-        color:white;
-        margin: 16px 76px;
-    
+        color:white;    
     }
 
     .slideshow-container img {
@@ -125,16 +122,189 @@ footer {
 
 }
 
-/* 320px
-480px
-600px
-768px
-900px
-1024px
-1200px */
+@media only screen and (min-width:414px) {
+    .name {
+        font-size: 30px;
+    }
 
+    li a {
+        padding: 0 30px;
+    }
 
+    h2 {
+        font-size: 28px;
+    }
 
+    h3 {
+        text-align: center;
+    }
+
+    .slideshow-container img {
+        width:112%;
+        margin-left: -21px;
+    }
+
+}
+
+@media only screen and (min-width: 480px) {
+    li a {
+        padding: 0 35px;
+        font-size: 1.4em;
+    }
+    .slideshow-container img {
+        width: 110%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    
+    li a {
+        padding: 0 52px;
+        font-size: 1.5em;
+    }
+
+    .name {
+        font-size:35px;
+    }
+
+    .titleContact {
+        font-size: 32px;
+    }
+
+    .slideshow-container img {
+        width: 108%;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .name {
+        font-size:40px;
+        margin: 15px 0;
+    }
+
+    li a {
+        padding: 0 65px;
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    h3 {
+        font-size: 28px;
+    }
+
+    .occupation {
+        font-size: 20px;
+    }
+
+    p {
+        margin: 25px auto;
+        font-size: 16px;
+    }
+
+    .slideshow-container img {
+        width: 102%;
+    }
+
+    .titleContact {
+        font-size: 35px;
+    }
+
+    .info {
+        width: 85%;
+        margin: 5px 18px;
+    }
+
+    a.prev, a.next {
+        font-size: 300%;
+        padding: 10px 85px;
+    }
+
+    .projectLinks {
+        font-size: 25px;
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .name {
+        font-size: 45px;
+    }
+
+    .titleContact {
+        font-size: 40px;
+        margin-bottom: 25px;
+    }
+
+    .info {
+        margin:  20px 80px;
+    }
+
+    .slideshow-container img {
+        width: 115%;
+        margin-left: -64px;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) {
+    .name {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    h3 {
+        font-size: 35px;
+    }
+    .occupation {
+        font-size: 25px;
+    }
+
+    p {
+        margin: 35px auto;
+        font-size: 20px;
+    }
+
+    li a {
+        padding: 0 95px;
+        font-size: 2.2em;
+    }
+
+    .slideshow-container img {
+        width: 105%;
+        margin-left: -38px;
+    }
+
+    .projectLinks {
+        font-size: 30px;
+        margin-bottom: 60px;
+    }
+
+    .info {
+        margin: 20px 45px;
+    }
+}
+
+@media only screen and (min-with: 1200px) {
+
+   li a {
+       padding: 0 100px;
+   }
+
+   .name {
+       font-size: 30px;
+   }
+}
+ /*
 @media only screen and (min-width: 1500px) {
 
 p {
@@ -204,7 +374,7 @@ img.slideshow-container{
 
 .info img {
     margin-right: 25px;
-}
+} */
 
 /* Slideshow container */
 .slideshow-container {
@@ -255,9 +425,4 @@ img.slideshow-container{
 
 
 
-
-
-
-
-  
-  
+*/
