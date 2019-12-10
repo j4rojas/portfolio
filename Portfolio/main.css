@@ -291,34 +291,73 @@ footer {
 
     .info {
         margin: 20px 45px;
+        font-size: 5em;
+
     }
 }
 
-@media only screen and (min-with: 1200px) {
+@media only screen and (min-width: 1200px) {
+    
+    .name {
+        font-size: 55px;
+    }
 
-   li a {
-       padding: 0 100px;
-   }
+    .titleContact {
+        font-size: 45px;
+    }
 
-   .name {
-       font-size: 30px;
-   }
+    h2 {
+        font-size: 45px;
+    }
+
+    .occupation {
+        font-size: 28px;
+    }
+
+    .links {
+        padding: 0 105px;
+    }
+
+    .info {
+        width: 75%;
+        margin: 20px 105px;
+    }
+
+    .slideshow-container {
+        width: 100%;
+        margin-left: -30px;
+    }
 }
- /*
+ 
 @media only screen and (min-width: 1500px) {
 
 p {
-    margin: 20px auto;
-    font-size:18px;
+    margin: 30px auto;
+    font-size:20px;
     text-align:left;
 }
 
 .name {
-    color:white;
     float:left;
-    margin-left: -600px;
+    font-size: 40px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+p {
+    font-size: 22px;
+}
+
+.projectLinks {
+    font-size: 30px;
+}
 ul {
     list-style-type: none;
     margin: 8px 0;
@@ -335,8 +374,7 @@ li a {
     text-align:center;
     padding: 8px 35px;
     margin-top:5px;
-    color:white;
-    font-size: 1.5em;
+    font-size: 2em;
 }
 .links {
     margin-right: -600px;
@@ -374,7 +412,8 @@ img.slideshow-container{
 
 .info img {
     margin-right: 25px;
-} */
+    width:40%;
+}
 
 /* Slideshow container */
 .slideshow-container {
@@ -391,19 +430,29 @@ img.slideshow-container{
   width: auto;
   padding: 16px;
   margin-top: -22px;
-  margin-left: -319px;
+  margin-left: -490px;
   color: white;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
+  background-color:white;
+  border:1px solid rgb(5, 22, 47);
+}
+
+a.prev, a.next {
+    padding: 10px 20px;
 }
 
 /* Position the "next button" to the right */
 .next {
-  right: 136px;
+  right: -8px;
   border-radius: 3px 0 0 3px;
+}
+
+.prev {
+    left: 452px;
 }
 
 /* On hover, add a grey background color */
@@ -418,11 +467,13 @@ img.slideshow-container{
     width:80%;
 }
 
-.projectLinks {
-    font-size:25px;
+@media only screen and (min-width: 2000px) {
+    .info {
+        float:right;
+        margin: 0 200px;
+        margin-top: -80px;
+    }
+
 }
+
 } 
-
-
-
-*/
