@@ -51,6 +51,12 @@ ul {
     overflow: hidden;
 }
 
+ul.info {
+    display:flex;
+    justify-content: center;
+    margin:auto;
+}
+
 ul.links li {
     display: inline;
     color:white;
@@ -158,6 +164,9 @@ footer {
         width:112%;
         margin-left: -21px;
     }
+    .icon {
+        width:60px;
+    }
 
 }
 
@@ -168,6 +177,9 @@ footer {
     }
     .slideshow-container img {
         width: 110%;
+    }
+    .icon {
+        width:60px;
     }
 }
 
@@ -192,6 +204,9 @@ footer {
 
     h3 {
         font-size: 24px;
+    }
+    .icon {
+        width:60px;
     }
 }
 
@@ -410,6 +425,7 @@ footer {
 
 #contactInfo {
     color:white;
+    margin:auto;
 }
 
 .titleContact {
