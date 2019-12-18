@@ -101,6 +101,13 @@ footer {
 
 }
 
+.liveLink {
+    margin-right:50px;
+}
+
+.frontLink {
+    margin-right:50px;
+}
 @media only screen and (min-width:375px) {
 
     li a {
@@ -118,6 +125,14 @@ footer {
         width: 115%;
         margin-left: -24px;
         margin-bottom: 15px;
+    }
+
+    .image {
+        width:70%;
+    }
+
+    .icon {
+        width:60px;
     }
 
 }
