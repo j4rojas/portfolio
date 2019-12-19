@@ -9,6 +9,7 @@ body {
 nav {
     width:100%;
     background-color:rgb(5, 22, 47);
+    position:fixed;
 }
 
 .hBio {
@@ -20,7 +21,8 @@ h2 {
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 22px;
+    text-align: center;
 }
 
 .hBio, .portfolio {
@@ -28,13 +30,12 @@ h3 {
 }
 
 .occupation {
-    font-size: 17px;
-    text-align: center;
+    font-size: 15px;
 }
 
 p {
     margin: 20px auto;
-    font-size:15px;
+    font-size:12px;
     text-align:left;
 }
 
@@ -65,7 +66,7 @@ ul.links li {
 ul.info li {
     display:inline;
     font-size: 0em;
-    padding: 15px 23.5px;
+    padding: 7px 23.5px;
 }
 
 li a {
@@ -80,8 +81,7 @@ li a {
 }
 
 .slideshow-container img {
-    width: 120%;
-    margin-left: -26px;
+    width: 100%;
 }
 
 a.prev, a.next {
@@ -100,19 +100,48 @@ footer {
 }
 
 .titleContact {
+    display: flex;
     font-size: 22px;
     color:white;
-    text-align: center;
-    margin-bottom: 20px;
-
+    margin: 5px 48px;
 }
 
 .liveLink {
-    margin-right:50px;
+    margin-right:12px;
 }
 
 .frontLink {
-    margin-right:50px;
+    margin-right:12px;
+}
+
+.githubIcon {
+    margin-left: -30px;
+    width: 38px;
+    margin-top: -3px;
+}
+
+.emailIcon {
+    margin-left: -34px;
+}
+
+@media only screen and (min-width:360px) {
+    li a {
+        padding: 0 21px;
+    }
+    .liveLink {
+        margin-right:25px;
+    }
+    
+    .frontLink {
+        margin-right:25px;
+    }
+    .titleContact {
+        margin: 6px 68px;
+    }
+    .githubIcon {
+        margin-left:-32px;
+        width: 35px
+    }
 }
 @media only screen and (min-width:375px) {
 
@@ -128,8 +157,7 @@ footer {
     }
 
     .slideshow-container img {
-        width: 115%;
-        margin-left: -24px;
+        width: 100%;
         margin-bottom: 15px;
     }
 
@@ -138,7 +166,15 @@ footer {
     }
 
     .icon {
-        width:60px;
+        width:34px;
+    }
+    .githubIcon {
+        margin-left: -22px;
+        margin-top: -2px;
+        width: 36px
+    }
+    .emailIcon {
+        margin-left: -20px;
     }
 
 }
@@ -159,13 +195,16 @@ footer {
     h3 {
         text-align: center;
     }
-
-    .slideshow-container img {
-        width:112%;
-        margin-left: -21px;
+    .titleContact {
+        margin: 6px 95px;
     }
-    .icon {
-        width:60px;
+    .githubIcon {
+        margin-left: -22px;
+        margin-top: -2px;
+        width: 38px
+    }
+    .emailIcon {
+        margin-left: -20px;
     }
 
 }
@@ -175,12 +214,7 @@ footer {
         padding: 0 35px;
         font-size: 1.4em;
     }
-    .slideshow-container img {
-        width: 110%;
-    }
-    .icon {
-        width:60px;
-    }
+   
 }
 
 @media only screen and (min-width: 600px) {
@@ -198,16 +232,10 @@ footer {
         font-size: 32px;
     }
 
-    .slideshow-container img {
-        width: 108%;
-    }
-
     h3 {
         font-size: 24px;
     }
-    .icon {
-        width:60px;
-    }
+ 
 }
 
 @media only screen and (min-width: 768px) {
@@ -222,28 +250,34 @@ footer {
     }
 
     h2 {
-        font-size: 32px;
+        font-size: 45px;
     }
 
     h3 {
-        font-size: 28px;
+        font-size: 35px;
     }
 
     .occupation {
-        font-size: 20px;
+        font-size: 30px;
     }
 
     p {
         margin: 25px auto;
-        font-size: 16px;
+        font-size: 22px;
     }
 
-    .slideshow-container img {
+    footer, nav {
         width: 102%;
     }
 
+    .slideshow-container img {
+        width: 90%;
+        margin-left:-15px;
+    }
+
     .titleContact {
-        font-size: 35px;
+        font-size: 40px;
+        margin: 10px 189px;
     }
 
     .info {
@@ -259,6 +293,14 @@ footer {
     .projectLinks {
         font-size: 25px;
         margin-bottom: 50px;
+    }
+    .icon {
+        width:45%;
+    }
+    .githubIcon {
+        margin-left: -76px;
+        margin-top:-5px;
+        width:70px;
     }
 }
 
@@ -310,8 +352,8 @@ footer {
     }
 
     .slideshow-container img {
-        width: 105%;
-        margin-left: -38px;
+        width: 97%;
+        margin-left: 0px;
     }
 
     .projectLinks {
@@ -322,8 +364,18 @@ footer {
     .info {
         margin: 20px 45px;
         font-size: 5em;
-
     }
+
+    .titleContact {
+        margin: 14px 28%;
+        font-size:45px;
+    }
+    .githubIcon {
+    margin-left: -76px;
+    margin-top: -5px;
+    width: 96px;
+    }
+
 }
 
 @media only screen and (min-width: 1200px) {
@@ -357,6 +409,19 @@ footer {
         width: 100%;
         margin-left: -30px;
     }
+    .titleContact {
+        margin: 14px 30%;
+        font-size:45px;
+    }
+    .icon {
+        width:36%;
+    }
+    .githubIcon {
+        margin-left: -76px;
+        margin-top:0px;
+        width: 70px;
+    }
+    
 }
  
 @media only screen and (min-width: 1500px) {
@@ -416,7 +481,6 @@ li a {
 
 footer {
     width: 100%;
-    background-color: rgb(5,5,54);
     margin-bottom:0;
     margin-top: 25px;
     display: flex;
@@ -430,7 +494,8 @@ footer {
 
 .titleContact {
     float:left;
-    margin: 15px 95px;
+    margin: 15px 495px;
+    font-size:50px;
 }
 
 .mySlides1, .mySlides2, .mySlides3 {
@@ -439,11 +504,6 @@ footer {
 img.slideshow-container{
     vertical-align: middle;
     width:100%;
-}
-
-.info img {
-    margin-right: 25px;
-    width:40%;
 }
 
 /* Slideshow container */
@@ -492,10 +552,16 @@ a.prev, a.next {
   color: black;
 }
 
-
 .bookSearch, .travelPlanner, .UncEats {
     margin:auto;
     width:80%;
+}
+.icon {
+    width:55%;
+}
+.githubIcon {
+    width:75px;
+    margin-top:0px;
 }
 
 @media only screen and (min-width: 2000px) {
