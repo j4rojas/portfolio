@@ -139,7 +139,7 @@ footer {
     }
     .githubIcon {
         margin-left:-32px;
-        width: 35px
+        width: 46px
     }
 }
 @media only screen and (min-width:375px) {
@@ -169,8 +169,8 @@ footer {
     }
     .githubIcon {
         margin-left: -22px;
-        margin-top: -2px;
-        width: 36px
+        margin-top: -3px;
+        width: 38px
     }
     .emailIcon {
         margin-left: -20px;
@@ -198,7 +198,7 @@ footer {
         margin: 6px 95px;
     }
     .githubIcon {
-        margin-left: -22px;
+        margin-left: -30px;
         margin-top: -2px;
         width: 38px
     }
