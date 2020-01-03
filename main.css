@@ -416,9 +416,9 @@ footer {
         width:36%;
     }
     .githubIcon {
-        margin-left: -76px;
-        margin-top:0px;
-        width: 70px;
+        margin-left: auto;
+        margin-top:2px;
+        width: 80px;
     }
     
 }
